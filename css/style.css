@@ -1,0 +1,83 @@
+/* margin space between two items*/
+.navbar ul{
+    list-style: none;
+    background-image: linear-gradient(black, grey);
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aqua;
+    width: 80px;
+    display: block;
+    padding: 25pt 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar a:hover{
+    background: aqua;
+    color: black;
+}
+.pages{
+    background-image: linear-gradient(white, aqua);
+    /* background-image: url("../images/pattern.jpg"); */
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage{
+    background-image: url("../images/meta_oculus.jpeg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hometext{
+    color: aqua;
+    text-align: center;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+
+}
+
+.titletext{
+    color: blue;
+    text-align: center;
+}
+
+.blogitems{
+    align-items: center;
+}
+
+.contactus{
+    margin: 50px;
+}
+
+.center{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
